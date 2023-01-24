@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>js operators</title>
+</head>
+<body>
+	<script>
+		//arthimatic operator
+		//addition
+		let x=9;
+			y=10;
+			z=x+y;
+			document.write("addition" ,z);
+			document.write("<br>");
+		//subtraction
+		let m=9;
+			n=7;
+			o=m-n;
+			document.write("subtraction" ,o);
+			document.write("<br>");
+			
+		//mulitpication
+		let a=2;
+			b=3;
+			c=a*b;
+			document.write("multipication" ,c);
+			document.write("<br>");
+			
+		//modulation
+		let aa=20;
+			bb=5;
+			cc=aa/bb;
+			document.write("modulation" ,cc);
+			document.write("<br>");
+			
+			
+			//divisable
+		let divis=505;
+			divv=10;
+			divisable=divis%divv;
+			document.write("divisable",divisable);
+			document.write("<br>");
+		
+
+
+
+
+
+
+
+
+
+		//aasignment operator
+		//pre increment
+		let pre=5;
+			++pre;
+			document.write("pre-increment",pre);
+			document.write("<br>");
+			
+		//post increment
+		let post=5;
+			post++;
+			document.write("post-increment",post);
+			document.write("<br>");
+			
+			
+			let first=5;
+				second=2;
+				g=first**second;
+			document.write(g);
+			document.write("<br>");
+			
+			
+			
+		
+								
+			
+				
+				//type operator
+				document.write(Number(true));
+				document.write("<br>");
+				document.write(Boolean(1));
+				document.write("<br>");
+				document.write(Number("ten"));
+				document.write("<br>");
+				document.write(Number(null));
+				document.write("<br>");
+				document.write(Number(undefined));
+				document.write("<br>");
+
+
+				// instanceof
+
+				var text={name:"mani"};
+				document.write(text instanceof Array);
+				document.write("<br>");
+				document.write(text instanceof Object);
+				document.write("<br>");
+
+				var text2=["mobilephone", "tv"];
+				document.write(text2 instanceof Array);
+				document.write("<br>");
+				document.write(text2 instanceof Object);
+				document.write("<br>");
+
+				//                   comma
+
+				document.write(a,b,text,text2);
+				document.write("<br>");
+
+				//               delete
+
+				let details={name:"mani",degree:"B.E", department:"cse"};
+				delete details.degree;
+				console.log(details);
+				document.write("<br>");
+
+				//in
+				const cars=['audi', 'bmw', 'swift','rolls royce','range rover'];
+				document.write(0 in cars); 
+				document.write("<br>");
+				document.write('length' in cars); 
+				document.write("<br>");
+				document.write('swift' in cars); 
+		
+	</script>
+</body>
